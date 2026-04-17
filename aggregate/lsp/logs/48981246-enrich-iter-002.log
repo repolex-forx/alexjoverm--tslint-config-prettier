@@ -1,0 +1,16 @@
+[2026-04-17T06:53:04Z] === ENRICH ITERATION 2 START | repo=alexjoverm/tslint-config-prettier sha=48981246 ===
+[2026-04-17T06:53:04Z] [iter=2] PHASE START: enrich repo=alexjoverm/tslint-config-prettier sha=48981246 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/48981246-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4898124666e7cba64d8b6dc3527884d9b087aaa3.nq.gz
+[2026-04-17T06:53:23Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=81 MB
+[2026-04-17T06:53:23Z] [iter=2] AST store loaded triples=13724 load_secs=0 mem_mb=108 MB
+[2026-04-17T06:53:23Z] [iter=2] Step 2: Finding LSP targets mem_mb=108 MB
+[2026-04-17T06:53:23Z] [iter=2] LSP targets found call_sites=163 imports=13 extends=0 implements=0 secs=0
+[2026-04-17T06:53:23Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=108 MB
+[2026-04-17T06:53:23Z] [iter=2] Position index built positions=817 nodes_with_types=1047 secs=0 mem_mb=108 MB
+[2026-04-17T06:53:23Z] [iter=2] Step 3: Starting LSP resolution mem_mb=108 MB already_completed_types=[] already_completed_files=0
+[2026-04-17T06:53:23Z] [iter=2] Resolving target type target_type=call_site count=163
+[2026-04-17T06:53:27Z] [iter=2] Target type resolved target_type=call_site resolved=17 errors=69 secs=4 mem_mb=108 MB
+[2026-04-17T06:53:27Z] [iter=2] Resolving target type target_type=import_statement count=13
+[2026-04-17T06:53:29Z] [iter=2] Target type resolved target_type=import_statement resolved=2 errors=0 secs=2 mem_mb=108 MB
+[2026-04-17T06:53:32Z] [iter=2] Step 5: Writing final enrichment file triples=1180
+[2026-04-17T06:53:33Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/4898124666e7cba64d8b6dc3527884d9b087aaa3.nq.gz size_kb=18
+[2026-04-17T06:53:33Z] [iter=2] PHASE END: enrich elapsed_s=29 elapsed_min=0.5 total_triples=1180
